@@ -33,10 +33,6 @@ const collectdata =async()=>{
           setstatus(false)
         }
     })
-    
-    
-    
-
 }
   return (
     <div className='register'>

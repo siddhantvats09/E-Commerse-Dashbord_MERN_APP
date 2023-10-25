@@ -90,6 +90,10 @@
   color: aliceblue;
   
 }
+.s2{
+  margin-left: 130px;
+}
+
 .delete:hover{
   cursor: pointer;
   color: rgb(244, 0, 0);
@@ -183,4 +187,7 @@ h2{
 }
 h5{
   font-weight: 400;
+}
+.and1{
+  color: rgb(240, 18, 62);
 }

@@ -23,9 +23,14 @@ const Readme = () => {
             <h1 className='readmeh1'>* You cannot Update or Delete others peoples Item </h1>
             <h1 className='readmeh1'>* There is a Add Product Section Where you can add your Products </h1>
             <h1 className='readmeh1'>* In profile Section You can Check Your Profile As Well</h1>
+            <h1 className='readmeh1 and1'>* Admin Credentials Email='admin@123' password='1234'</h1>
+            <h1 className='readmeh1 and1'>* Admin can update anyones data and update it as well</h1>
             <h1 className='readmeh1'>* Any time you want you Can Logout</h1>
             <h1 className='readmeh1'>* You don't need to creat your account Everytime ,You just need to Login </h1>
             <h1 className='readmeh1'>* Your Data always Be there in the Server</h1>
+            <h1 className='readmeh1'>* </h1>
+            <h1 className='readmeh1'>* </h1>
+           
     </div>
 
 </>

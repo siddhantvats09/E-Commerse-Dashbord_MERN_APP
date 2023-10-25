@@ -11,6 +11,7 @@ import Profile from './pages/Profile'
 import Pvtcomponent from './component/Pvtcomponent'
 import Login from './pages/Login'
 import Readme from './component/Readme'
+import Admin from './pages/Admin'
 
 function App() {
   
@@ -24,7 +25,9 @@ function App() {
       <Route path="/add" element={<Addprodutcs />}/>
       <Route path="/update/:id" element={<Updateprodutcs />}/>
       <Route path="/profile" element={<Profile />}/>
+      <Route path="/admin" element={<Admin />}/>
       <Route path="/readme" element={<Readme />}/>
+
       </Route>
       <Route path="/signup" element={<Signup />}/>
       <Route path="/login" element={<Login />}/>

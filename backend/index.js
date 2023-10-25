@@ -9,19 +9,6 @@ const jwtkey="any"
 
 
 
-// mongoose.connect("mongodb+srv://siddhant:siddhantvats@cluster0.iigzhec.mongodb.net/UsersData?retryWrites=true&w=majority")
-
-// const userschema= new mongoose.Schema({
-//     name:String,
-//     email:String,
-//     password:String
-// })
-// const USER = mongoose.model('USER', userschema);
-
-
-
-
-
 
 
 const app = express()
@@ -29,7 +16,6 @@ const app = express()
 app.use(express.json())
 app.use(cors({ origin: 'http://localhost:5173' }));
 app.listen(3000)
-//mongodb+srv://siddhant:siddhantvats@cluster0.iigzhec.mongodb.net/UsersData?retryWrites=true&w=majority
 
 
 app.post('/register', async (req, res) => {
